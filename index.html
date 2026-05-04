@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darna Relocation – Votre nouvelle vie au Maroc, sans stress.</title>
+  <meta name="description" content="Service d'accompagnement premium pour les MRE qui souhaitent s'installer au Maroc. Logement, démarches, transport, emploi, scolarité et plus encore." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════ LANGUAGE SPLASH ══════════ -->
+  <div class="lang-splash" id="langSplash">
+    <div class="lang-splash-inner">
+      <img src="logo.png" alt="Darna Relocation" class="splash-logo" />
+      <h1 class="splash-title">Darna Relocation</h1>
+      <p class="splash-sub">Choisissez votre langue · Choose your language · Kies uw taal</p>
+      <div class="splash-langs">
+        <button class="splash-btn" data-lang="fr">
+          <span class="splash-flag">🇫🇷</span>
+          <span class="splash-lang-name">Français</span>
+        </button>
+        <button class="splash-btn" data-lang="en">
+          <span class="splash-flag">🇬🇧</span>
+          <span class="splash-lang-name">English</span>
+        </button>
+        <button class="splash-btn" data-lang="nl">
+          <span class="splash-flag">🇳🇱</span>
+          <span class="splash-lang-name">Nederlands</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ NAVBAR ══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#accueil" class="logo">
+        <img src="logo.png" alt="Darna Relocation" class="logo-img" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#accueil"      data-i18n="nav_home">Accueil</a>
+        <a href="#services"     data-i18n="nav_services">Nos Services</a>
+        <a href="#packs"        data-i18n="nav_packs">Packs</a>
+        <a href="#pourquoi"     data-i18n="nav_why">Pourquoi Nous</a>
+        <a href="#temoignages"  data-i18n="nav_testi">Témoignages</a>
+        <a href="#contact" class="btn-nav" data-i18n="nav_cta">Demander un devis</a>
+      </nav>
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn active" data-lang="fr">🇫🇷 FR</button>
+        <button class="lang-btn"        data-lang="en">🇬🇧 EN</button>
+        <button class="lang-btn"        data-lang="nl">🇳🇱 NL</button>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════ HERO ═════════════ -->
+  <section class="hero" id="accueil">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-badge" data-i18n="hero_badge">Service d'accompagnement MRE</span>
+      <h1 class="hero-title" data-i18n-html="hero_title">
+        Installez-vous au Maroc<br /><em>en toute sérénité</em>
+      </h1>
+      <p class="hero-subtitle" data-i18n-html="hero_sub">
+        Vous souhaitez vous installer au Maroc pour travailler, investir, créer une entreprise ou commencer une nouvelle vie ?<br />
+        <strong>Nous nous occupons de tout.</strong>
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary" data-i18n="hero_btn1">Commencer mon installation</a>
+        <a href="#services" class="btn-outline" data-i18n="hero_btn2">Découvrir nos services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label" data-i18n="stat1">Familles accompagnées</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">12</span><span class="stat-label" data-i18n="stat2">Villes couvertes</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">98%</span><span class="stat-label" data-i18n="stat3">Clients satisfaits</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span data-i18n="scroll_lbl">Découvrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═════════════════════════════════════════ INTRO BAND ═══════════ -->
+  <section class="intro-band">
+    <div class="container intro-band-inner">
+      <p data-i18n="band_text">Logement · Démarches administratives · Transport · Emploi · Scolarité · Banque · Conseils personnalisés</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ ABOUT ═══════════ -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img-bg"></div>
+        <div class="about-img-card">
+          <div class="about-img-icon">🏡</div>
+          <p data-i18n="about_card">Votre nouvelle vie au Maroc commence ici</p>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-label" data-i18n="about_label">Notre mission</span>
+        <h2 class="section-title" data-i18n-html="about_title">Un accompagnement humain,<br />du début à la fin</h2>
+        <p data-i18n-html="about_p1">Nous accompagnons les Marocains Résidant à l'Étranger dans <strong>toutes les étapes de leur installation</strong>. Logement, démarches, transport, conseils, organisation du quotidien : nous prenons en charge les détails pour que votre arrivée se fasse avec <strong>confort, confiance et tranquillité</strong>.</p>
+        <p data-i18n="about_p2">Que vous rentriez définitivement ou pour une longue durée, notre équipe locale est à votre disposition pour transformer ce projet de vie en une expérience fluide et sereine.</p>
+        <ul class="about-list">
+          <li data-i18n="about_li1">✔ Équipe locale expérimentée</li>
+          <li data-i18n="about_li2">✔ Suivi personnalisé de A à Z</li>
+          <li data-i18n="about_li3">✔ Disponible en français, néerlandais, arabe & anglais</li>
+          <li data-i18n="about_li4">✔ Réseau de partenaires de confiance</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════ SERVICES ═══════════ -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="serv_label">Ce que nous faisons</span>
+        <h2 class="section-title" data-i18n="serv_title">Nos Services</h2>
+        <p class="section-desc" data-i18n="serv_desc">Un accompagnement complet pour chaque aspect de votre installation au Maroc.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-delay="0">
+          <div class="service-icon">🏠</div>
+          <h3 data-i18n="s1_title">Recherche de logement</h3>
+          <p data-i18n="s1_desc">Appartement, villa ou riad : nous cherchons, visitons et négocions pour vous, selon votre budget et vos préférences.</p>
+        </div>
+        <div class="service-card" data-delay="1">
+          <div class="service-icon">📋</div>
+          <h3 data-i18n="s2_title">Accompagnement administratif</h3>
+          <p data-i18n="s2_desc">CIN, carte de séjour, inscription consulaire, permis de conduire… nous gérons toutes vos démarches officielles.</p>
+        </div>
+        <div class="service-card" data-delay="2">
+          <div class="service-icon">🏦</div>
+          <h3 data-i18n="s3_title">Ouverture de compte bancaire</h3>
+          <p data-i18n="s3_desc">Nous vous orientons vers les meilleures banques et vous accompagnons lors de l'ouverture de votre compte en dirhams.</p>
+        </div>
+        <div class="service-card" data-delay="3">
+          <div class="service-icon">👨‍👩‍👧</div>
+          <h3 data-i18n="s4_title">Installation familiale</h3>
+          <p data-i18n="s4_desc">Mobilier, électroménager, connexion internet, médecin de famille : nous organisons votre quotidien dès le premier jour.</p>
+        </div>
+        <div class="service-card" data-delay="4">
+          <div class="service-icon">🎓</div>
+          <h3 data-i18n="s5_title">Scolarité des enfants</h3>
+          <p data-i18n="s5_desc">Recherche d'école publique, privée ou internationale, inscription et suivi administratif pour vos enfants.</p>
+        </div>
+        <div class="service-card" data-delay="5">
+          <div class="service-icon">💼</div>
+          <h3 data-i18n="s6_title">Emploi & Création d'activité</h3>
+          <p data-i18n="s6_desc">Mise en relation avec des recruteurs locaux ou accompagnement pour la création de votre entreprise au Maroc.</p>
+        </div>
+        <div class="service-card" data-delay="6">
+          <div class="service-icon">🚗</div>
+          <h3 data-i18n="s7_title">Transport aéroport</h3>
+          <p data-i18n="s7_desc">Prise en charge dès votre arrivée à l'aéroport avec un chauffeur privé et transfert vers votre nouveau domicile.</p>
+        </div>
+        <div class="service-card" data-delay="7">
+          <div class="service-icon">💬</div>
+          <h3 data-i18n="s8_title">Conseils avant le départ</h3>
+          <p data-i18n="s8_desc">Consultation vidéo pour préparer votre déménagement : ce qu'il faut prévoir, apporter, et anticiper.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════ PACKS ════════════ -->
+  <section class="packs section" id="packs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="packs_label">Formules</span>
+        <h2 class="section-title" data-i18n="packs_title">Packs d'accompagnement</h2>
+        <p class="section-desc" data-i18n="packs_desc">Choisissez la formule adaptée à votre projet et votre budget.</p>
+      </div>
+      <div class="packs-grid">
+        <div class="pack-card">
+          <div class="pack-header">
+            <span class="pack-name" data-i18n="p1_name">Essentiel</span>
+            <div class="pack-price" data-i18n="on_quote">Sur devis</div>
+          </div>
+          <ul class="pack-features">
+            <li data-i18n="p1_f1">✔ Conseil personnalisé (1h)</li>
+            <li data-i18n="p1_f2">✔ Transport aéroport</li>
+            <li data-i18n="p1_f3">✔ Recherche de logement</li>
+            <li data-i18n="p1_f4">✔ Ouverture de compte bancaire</li>
+            <li class="disabled" data-i18n="p1_f5">✘ Démarches administratives</li>
+            <li class="disabled" data-i18n="p1_f6">✘ Scolarité enfants</li>
+            <li class="disabled" data-i18n="p1_f7">✘ Accompagnement emploi</li>
+          </ul>
+          <a href="#contact" class="btn-pack" data-i18n="pack_btn">Demander un devis</a>
+        </div>
+        <div class="pack-card pack-featured">
+          <div class="pack-badge" data-i18n="pack_popular">Le plus choisi</div>
+          <div class="pack-header">
+            <span class="pack-name" data-i18n="p2_name">Confort</span>
+            <div class="pack-price" data-i18n="on_quote">Sur devis</div>
+          </div>
+          <ul class="pack-features">
+            <li data-i18n="p2_f1">✔ Tout le pack Essentiel</li>
+            <li data-i18n="p2_f2">✔ Démarches administratives complètes</li>
+            <li data-i18n="p2_f3">✔ Scolarité des enfants</li>
+            <li data-i18n="p2_f4">✔ Installation familiale</li>
+            <li data-i18n="p2_f5">✔ Suivi 30 jours post-installation</li>
+            <li class="disabled" data-i18n="p2_f6">✘ Accompagnement emploi/création</li>
+          </ul>
+          <a href="#contact" class="btn-pack btn-pack-featured" data-i18n="pack_btn">Demander un devis</a>
+        </div>
+        <div class="pack-card">
+          <div class="pack-header">
+            <span class="pack-name" data-i18n="p3_name">Premium</span>
+            <div class="pack-price" data-i18n="on_quote">Sur devis</div>
+          </div>
+          <ul class="pack-features">
+            <li data-i18n="p3_f1">✔ Tout le pack Confort</li>
+            <li data-i18n="p3_f2">✔ Accompagnement emploi ou création</li>
+            <li data-i18n="p3_f3">✔ Conseils investissement immobilier</li>
+            <li data-i18n="p3_f4">✔ Réseau professionnel local</li>
+            <li data-i18n="p3_f5">✔ Suivi 3 mois post-installation</li>
+            <li data-i18n="p3_f6">✔ Assistance disponible 7j/7</li>
+          </ul>
+          <a href="#contact" class="btn-pack" data-i18n="pack_btn">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════ POURQUOI ══════════ -->
+  <section class="why section" id="pourquoi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="why_label">Nos engagements</span>
+        <h2 class="section-title" data-i18n="why_title">Pourquoi nous choisir ?</h2>
+        <p class="section-desc" data-i18n="why_desc">Ce qui nous distingue dans un service d'accompagnement MRE.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><div class="why-num">01</div><h3 data-i18n="w1_title">Expertise locale</h3><p data-i18n="w1_desc">Notre équipe connaît parfaitement le terrain marocain : villes, quartiers, administrations et prestataires de confiance.</p></div>
+        <div class="why-card"><div class="why-num">02</div><h3 data-i18n="w2_title">Gain de temps considérable</h3><p data-i18n="w2_desc">Évitez des mois de recherches et de démarches. Nous avons déjà le réseau, les contacts et les solutions.</p></div>
+        <div class="why-card"><div class="why-num">03</div><h3 data-i18n="w3_title">Accompagnement sur mesure</h3><p data-i18n="w3_desc">Chaque famille, chaque projet est unique. Nous adaptons nos services à votre situation personnelle.</p></div>
+        <div class="why-card"><div class="why-num">04</div><h3 data-i18n="w4_title">Transparence totale</h3><p data-i18n="w4_desc">Pas de mauvaises surprises. Devis clair, suivi régulier et communication transparente à chaque étape.</p></div>
+        <div class="why-card"><div class="why-num">05</div><h3 data-i18n="w5_title">Disponibilité multilingue</h3><p data-i18n="w5_desc">Notre équipe vous répond en français, néerlandais, anglais et arabe, selon votre préférence.</p></div>
+        <div class="why-card"><div class="why-num">06</div><h3 data-i18n="w6_title">Réseau de partenaires</h3><p data-i18n="w6_desc">Agences immobilières, cabinets juridiques, écoles, banques, employeurs : un réseau solide à votre service.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ TÉMOIGNAGES ══════════ -->
+  <section class="temoignages section" id="temoignages">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="testi_label">Ils nous font confiance</span>
+        <h2 class="section-title" data-i18n="testi_title">Témoignages</h2>
+        <p class="section-desc" data-i18n="testi_desc">Ce que disent les familles que nous avons accompagnées.</p>
+      </div>
+      <div class="temoignages-grid">
+        <div class="temo-card">
+          <div class="temo-stars">★★★★★</div>
+          <p class="temo-text" data-i18n="t1_text">"Nous avons quitté Lyon après 20 ans. Sans Darna Relocation, nous aurions été complètement perdus. Logement trouvé en 2 semaines, papiers réglés, enfants inscrits à l'école. Un service exceptionnel."</p>
+          <div class="temo-author">
+            <div class="temo-avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=88&h=88&auto=format&fit=crop&q=80" alt="Karim A." /></div>
+            <div><strong>Karim A.</strong><span data-i18n="t1_loc">Retour de France, installé à Casablanca</span></div>
+          </div>
+        </div>
+        <div class="temo-card temo-featured">
+          <div class="temo-stars">★★★★★</div>
+          <p class="temo-text" data-i18n="t2_text">"Le service est vraiment premium. On sentait qu'on était entre de bonnes mains. Le transport aéroport, l'appartement, le compte bancaire… tout était prêt à notre arrivée. Je recommande vivement à tous les MRE."</p>
+          <div class="temo-author">
+            <div class="temo-avatar"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=88&h=88&auto=format&fit=crop&q=80" alt="Samira B." /></div>
+            <div><strong>Samira B.</strong><span data-i18n="t2_loc">Retour de Belgique, installée à Marrakech</span></div>
+          </div>
+        </div>
+        <div class="temo-card">
+          <div class="temo-stars">★★★★★</div>
+          <p class="temo-text" data-i18n="t3_text">"J'avais beaucoup d'appréhensions sur les démarches administratives. L'équipe a tout géré avec professionnalisme et patience. Mon entreprise est lancée et ma famille est épanouie. Merci !"</p>
+          <div class="temo-author">
+            <div class="temo-avatar"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=88&h=88&auto=format&fit=crop&q=80" alt="Youssef M." /></div>
+            <div><strong>Youssef M.</strong><span data-i18n="t3_loc">Retour d'Espagne, entrepreneur à Rabat</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════ PROCESSUS ══════════ -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-i18n="proc_label">Comment ça marche</span>
+        <h2 class="section-title" data-i18n="proc_title">Notre processus en 4 étapes</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step"><div class="step-num">1</div><h3 data-i18n="step1_title">Prise de contact</h3><p data-i18n="step1_desc">Remplissez le formulaire ou appelez-nous. Nous analysons votre projet gratuitement.</p></div>
+        <div class="process-arrow">→</div>
+        <div class="process-step"><div class="step-num">2</div><h3 data-i18n="step2_title">Consultation</h3><p data-i18n="step2_desc">Un entretien vidéo pour comprendre vos besoins et vous proposer le pack adapté.</p></div>
+        <div class="process-arrow">→</div>
+        <div class="process-step"><div class="step-num">3</div><h3 data-i18n="step3_title">Accompagnement</h3><p data-i18n="step3_desc">Notre équipe prend en charge toutes les démarches selon votre plan personnalisé.</p></div>
+        <div class="process-arrow">→</div>
+        <div class="process-step"><div class="step-num">4</div><h3 data-i18n="step4_title">Installation & Suivi</h3><p data-i18n="step4_desc">Vous arrivez, nous sommes là. Et on reste disponibles après pour tout ajustement.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════ GALLERY ══════════ -->
+  <section class="gallery-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Nos villes</span>
+        <h2 class="section-title">Le Maroc vous attend</h2>
+        <p class="section-desc">Des villes dynamiques, culturelles et pleines d'opportunités.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=900&auto=format&fit=crop&q=80" alt="Casablanca" />
+          <div class="gallery-label">Casablanca</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=600&auto=format&fit=crop&q=80" alt="Marrakech" />
+          <div class="gallery-label">Marrakech</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1562280963-8a5475740a10?w=600&auto=format&fit=crop&q=80" alt="Rabat" />
+          <div class="gallery-label">Rabat</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=600&auto=format&fit=crop&q=80" alt="Tanger" />
+          <div class="gallery-label">Tanger</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=600&auto=format&fit=crop&q=80" alt="Fès" />
+          <div class="gallery-label">Fès</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════ CONTACT ══════════ -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-label" data-i18n="contact_label">Parlons de votre projet</span>
+        <h2 class="section-title" data-i18n="contact_title">Demandez votre devis gratuit</h2>
+        <p data-i18n-html="contact_sub">Remplissez le formulaire et un conseiller vous contacte sous <strong>24h</strong> pour discuter de votre projet d'installation.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div><strong data-i18n="contact_phone_lbl">Téléphone / WhatsApp</strong><span>+212 6 XX XX XX XX</span></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div><strong>Email</strong><span>contact@darnarelocation.ma</span></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div><strong data-i18n="contact_pres_lbl">Présence nationale</strong><span data-i18n="contact_pres_val">Casablanca, Rabat, Marrakech, Tanger, Fès & +</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nom" data-i18n="form_name">Nom complet *</label>
+              <input type="text" id="nom" name="nom" data-i18n-placeholder="form_name_ph" placeholder="Ex: Mohammed El Idrissi" required />
+            </div>
+            <div class="form-group">
+              <label for="femail" data-i18n="form_email">Email *</label>
+              <input type="email" id="femail" name="email" placeholder="votre@email.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pays" data-i18n="form_country">Pays de résidence actuel *</label>
+              <input type="text" id="pays" name="pays" data-i18n-placeholder="form_country_ph" placeholder="Ex: France, Belgique…" required />
+            </div>
+            <div class="form-group">
+              <label for="ville" data-i18n="form_city">Ville d'installation souhaitée</label>
+              <input type="text" id="ville" name="ville" data-i18n-placeholder="form_city_ph" placeholder="Ex: Casablanca, Rabat…" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pack" data-i18n="form_pack">Pack souhaité</label>
+            <select id="pack" name="pack">
+              <option value=""           data-i18n="form_pack_opt0">-- Je ne sais pas encore --</option>
+              <option value="essentiel"  data-i18n="p1_name">Pack Essentiel</option>
+              <option value="confort"    data-i18n="p2_name">Pack Confort</option>
+              <option value="premium"    data-i18n="p3_name">Pack Premium</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="form_msg">Décrivez votre projet *</label>
+            <textarea id="message" name="message" rows="4" data-i18n-placeholder="form_msg_ph" placeholder="Parlez-nous de votre situation, vos besoins, votre calendrier…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">
+            <span data-i18n="form_submit">Envoyer ma demande</span>
+            <span class="btn-arrow">→</span>
+          </button>
+          <p class="form-notice" data-i18n="form_notice">Réponse garantie sous 24h · Service 100% confidentiel</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#accueil" class="logo">
+          <img src="logo.png" alt="Darna Relocation" class="logo-img logo-img-footer" />
+        </a>
+        <p data-i18n="footer_tagline">Votre partenaire de confiance pour une installation au Maroc sereine et réussie.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">in</a>
+          <a href="#" aria-label="WhatsApp">w</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer_nav">Navigation</h4>
+        <a href="#accueil"     data-i18n="nav_home">Accueil</a>
+        <a href="#services"    data-i18n="nav_services">Nos Services</a>
+        <a href="#packs"       data-i18n="nav_packs">Packs</a>
+        <a href="#pourquoi"    data-i18n="nav_why">Pourquoi Nous</a>
+        <a href="#temoignages" data-i18n="nav_testi">Témoignages</a>
+        <a href="#contact"     data-i18n="nav_cta_short">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer_serv">Nos Services</h4>
+        <a href="#services" data-i18n="s1_title">Recherche de logement</a>
+        <a href="#services" data-i18n="s2_title">Démarches administratives</a>
+        <a href="#services" data-i18n="s5_title">Scolarité enfants</a>
+        <a href="#services" data-i18n="s6_title">Emploi & Entreprise</a>
+        <a href="#services" data-i18n="s7_title">Transport aéroport</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="tel:+2120600000000">+212 6 XX XX XX XX</a>
+        <a href="mailto:contact@darnarelocation.ma">contact@darnarelocation.ma</a>
+        <p style="color:var(--text-muted);font-size:0.85rem;margin-top:0.5rem" data-i18n="footer_wa">WhatsApp disponible</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p data-i18n="footer_copy">© 2026 Darna Relocation. Tous droits réservés.</p>
+        <p data-i18n="footer_love">Fait avec ❤️ pour les MRE du monde entier</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <span data-i18n="toast_msg">✅ Votre demande a été envoyée ! Nous vous répondons sous 24h.</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
